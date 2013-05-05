@@ -1695,7 +1695,7 @@ loop:   for(int x=0, offset=0; x<nCodePoints; x++, offset+=len) {
         compiled = true;
     }
 
-    Map<String, Integer> namedGroups() {
+    public Map<String, Integer> namedGroups() {
         if (namedGroups == null)
             namedGroups = new HashMap<String, Integer>(2);
         return namedGroups;
