@@ -26,15 +26,12 @@ package name.kazennikov.regex;
  */
 
 
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.text.CharacterIterator;
 import java.text.Normalizer;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Arrays;
 import java.util.regex.PatternSyntaxException;
 
 
