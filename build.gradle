@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+if(project.hasProperty('standalone')) {
+    group = 'name.kazennikov'
+    description = "regex4j"
+    version = '0.0.1-SNAPSHOT'
+
+}
+
